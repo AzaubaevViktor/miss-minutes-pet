@@ -1,0 +1,234 @@
+{
+  "method": "source-pixel reassembly at 3x using approved registration",
+  "new_artwork_generated": false,
+  "dimensions": [
+    4608,
+    6864
+  ],
+  "cell_size": [
+    576,
+    624
+  ],
+  "runtime_upload_supported": false,
+  "native_atlas_unchanged": true,
+  "rows": [
+    {
+      "state": "idle",
+      "frames": 6,
+      "source_dimensions": [
+        1827,
+        861
+      ],
+      "source_sha256": "47edd899dda260cfed38972b6782305b893e179ab79b56a5155744339ac3fa28",
+      "comparison_to_native_mae_rgb": [
+        0.03574886485042735,
+        0.04028946314102564,
+        0.038411458333333336,
+        0.03595753205128205,
+        0.03830295138888889,
+        0.03594083867521367
+      ],
+      "source_pixel_reassembly": true,
+      "source_tail_pixels_retained": 117259
+    },
+    {
+      "state": "running-right",
+      "frames": 8,
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "source_sha256": "65395fb6baaff5464389e5f70ac075ff16cd204170c4092d762c9005e1fb11d8",
+      "comparison_to_native_mae_rgb": [
+        0.027485643696581196,
+        0.02665932158119658,
+        0.026058360042735044,
+        0.02576622596153846,
+        0.02771935096153846,
+        0.028303619123931624,
+        0.02767761752136752,
+        0.026559161324786324
+      ],
+      "source_pixel_reassembly": true,
+      "source_tail_pixels_retained": 115390
+    },
+    {
+      "state": "running-left",
+      "frames": 8,
+      "source_dimensions": [
+        2170,
+        725
+      ],
+      "source_sha256": "09459f9bd4c934406235dd9555116e83470e1aa39864c1adeb25924cab36a3d6",
+      "comparison_to_native_mae_rgb": [
+        0.038736979166666664,
+        0.03353699252136752,
+        0.039379674145299144,
+        0.03672542735042735,
+        0.036842280982905984,
+        0.03387086004273504,
+        0.03728465544871795,
+        0.035056089743589744
+      ],
+      "source_pixel_reassembly": true,
+      "source_tail_pixels_retained": 121199
+    },
+    {
+      "state": "waving",
+      "frames": 4,
+      "source_dimensions": [
+        2167,
+        725
+      ],
+      "source_sha256": "50cc88b4fd5e6271ee49f714a3b9e4db283c34d8782c53316882d86ed1a27cfe",
+      "comparison_to_native_mae_rgb": [
+        0.03134181356837607,
+        0.03398771367521367,
+        0.034413394764957264,
+        0.03317808493589743
+      ],
+      "source_pixel_reassembly": true,
+      "source_tail_pixels_retained": 199825
+    },
+    {
+      "state": "jumping",
+      "frames": 5,
+      "source_dimensions": [
+        2170,
+        725
+      ],
+      "source_sha256": "1c70974750c89ae53097c412b8414580eac73f1ae1a6c156a8773aa9e1c0617f",
+      "comparison_to_native_mae_rgb": [
+        0.023070245726495728,
+        0.024180355235042736,
+        0.028019831730769232,
+        0.027493990384615384,
+        0.02403846153846154
+      ],
+      "source_pixel_reassembly": true,
+      "source_tail_pixels_retained": 164882
+    },
+    {
+      "state": "failed",
+      "frames": 8,
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "source_sha256": "60efe99231d4e1b0e1156ec7d2a8a77e56faa699d1fd372f3bcc25c3cfa345b7",
+      "comparison_to_native_mae_rgb": [
+        0.02377136752136752,
+        0.023796407585470084,
+        0.023212139423076924,
+        0.024222088675213676,
+        0.020390958867521368,
+        0.024155315170940172,
+        0.024606036324786324,
+        0.024480836004273504
+      ],
+      "source_pixel_reassembly": true,
+      "source_tail_pixels_retained": 141398
+    },
+    {
+      "state": "waiting",
+      "frames": 6,
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "source_sha256": "1cca1275e8627ad1767bb860e168ae4bfbfb3ed29276b802657638e71e16273b",
+      "comparison_to_native_mae_rgb": [
+        0.027535723824786324,
+        0.026876335470085472,
+        0.028988047542735044,
+        0.02938034188034188,
+        0.02975594284188034,
+        0.029822716346153848
+      ],
+      "source_pixel_reassembly": true,
+      "source_tail_pixels_retained": 72754
+    },
+    {
+      "state": "running",
+      "frames": 6,
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "source_sha256": "90588ef0e73210e67c7c91a21dcc0f3a58d064d316fb63e9c31d801abf3af86a",
+      "comparison_to_native_mae_rgb": [
+        0.024180355235042736,
+        0.02453926282051282,
+        0.026133480235042736,
+        0.025131877670940172,
+        0.024397369123931624,
+        0.02449752938034188
+      ],
+      "source_pixel_reassembly": true,
+      "source_tail_pixels_retained": 216496
+    },
+    {
+      "state": "review",
+      "frames": 6,
+      "source_dimensions": [
+        2169,
+        725
+      ],
+      "source_sha256": "9c4f8329a2abbdae5ae1dc8142c0928fff43829b039eb0656ddc4c408061d3bc",
+      "comparison_to_native_mae_rgb": [
+        0.03316973824786325,
+        0.03253538995726496,
+        0.0333450186965812,
+        0.0313918936965812,
+        0.03073250534188034,
+        0.031433627136752136
+      ],
+      "source_pixel_reassembly": true,
+      "source_tail_pixels_retained": 193317
+    },
+    {
+      "state": "look-row-9",
+      "frames": 8,
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "source_sha256": "97176b0ff0f6578406575694ee277e4ef4b18fb820fa4b25ffc107b125169b1c",
+      "comparison_to_native_mae_rgb": [
+        0.017686631944444444,
+        0.017937032585470084,
+        0.017669938568376068,
+        0.017436231303418804,
+        0.018254206730769232,
+        0.017477964743589744,
+        0.017561431623931624,
+        0.01915564903846154
+      ],
+      "source_pixel_reassembly": true,
+      "source_tail_pixels_retained": 88831
+    },
+    {
+      "state": "look-row-10",
+      "frames": 8,
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "source_sha256": "fe5e664392e4293aae44f27792bdd2d5a606bfa2777506733c88ab8594aeb4d6",
+      "comparison_to_native_mae_rgb": [
+        0.01676849626068376,
+        0.01822081997863248,
+        0.019598023504273504,
+        0.019756610576923076,
+        0.017895299145299144,
+        0.018379407051282052,
+        0.017928685897435896,
+        0.018396100427350428
+      ],
+      "source_pixel_reassembly": true,
+      "source_tail_pixels_retained": 73198
+    }
+  ],
+  "sha256": "99dceedf4f5af4a8c8e695a008d8148a3dfa99d2d7e7fa8261c0ad9b467c9b91",
+  "bytes": 17559456
+}

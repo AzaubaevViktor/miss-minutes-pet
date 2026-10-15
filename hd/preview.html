@@ -1,0 +1,27 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Miss Minutes · HD preview</title>
+<style>
+body{margin:0;background:#101922;color:#f5ecdc;font:16px system-ui;padding:28px}main{max-width:1200px;margin:auto}h1{margin:0 0 12px;font-size:28px}p{color:#b7c3c9;line-height:1.5}select,button{background:#253544;color:#fff;border:1px solid #587080;border-radius:8px;padding:10px;margin:8px 8px 18px 0;font:inherit}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}article{background:#17212a;padding:14px;border-radius:16px}canvas{display:block;width:100%;height:auto}h2{font-size:17px}output{display:block;color:#bce1b0;font-size:14px;margin:10px 0}a{color:#f9be67}@media(max-width:720px){body{padding:16px}.grid{grid-template-columns:1fr}}
+</style><main><h1>Miss Minutes · версия HD ×3</h1>
+<p>Слева — установленный спрайт, увеличенный для сравнения. Справа — мастер из исходных изображений поз, 576×624 на кадр. Файл HD не принимается текущим форматом Pets.</p>
+<select id="mode" aria-label="Анимация"><option value="all">Все состояния и направления</option><option value="0">Покой</option><option value="1">Бег вправо</option><option value="2">Бег влево</option><option value="3">Приветствие</option><option value="4">Прыжок</option><option value="5">Неудача</option><option value="6">Ожидание</option><option value="7">Работа</option><option value="8">Проверка</option><option value="look">Направления взгляда</option></select><button id="pause">Пауза</button>
+<output id="load">Загружаю изображения…</output><output id="sweep"></output>
+<div class="grid"><article><h2>Текущий pet · 192×208</h2><canvas id="native" width="576" height="624"></canvas></article><article><h2>HD-мастер · 576×624</h2><canvas id="hd" width="576" height="624"></canvas></article></div>
+<p id="frame"></p><p><a href="miss-minutes-master-3x.png">Скачать PNG 4608×6864</a> · <a href="all-states-hd.mp4">Видео</a></p>
+<p>Браузерный тест подтверждает декодирование и анимацию атласа. Проверка окна Mini в приложении отдельно не выполнена.</p>
+<script>
+const counts=[6,8,8,4,5,8,6,6,6,8,8],names=['idle','running-right','running-left','waving','jumping','failed','waiting','running','review','look 000–157.5','look 180–337.5'];
+const all=counts.flatMap((n,r)=>Array.from({length:n},(_,c)=>[r,c]));let frames=all,index=0,paused=false,seen=new Set,errors=[];
+const native=new Image,hd=new Image;native.src='miss-minutes-runtime.png';hd.src='miss-minutes-master-3x.png';
+const nc=document.getElementById('native').getContext('2d'),hc=document.getElementById('hd').getContext('2d');
+function draw(ctx,img,r,c,scale){ctx.clearRect(0,0,576,624);ctx.imageSmoothingEnabled=true;ctx.imageSmoothingQuality='high';ctx.drawImage(img,c*192*scale,r*208*scale,192*scale,208*scale,0,0,576,624)}
+document.getElementById('mode').onchange=e=>{frames=e.target.value==='all'?all:e.target.value==='look'?all.filter(([r])=>r>=9):all.filter(([r])=>r===Number(e.target.value));index=0;};
+document.getElementById('pause').onclick=e=>{paused=!paused;e.target.textContent=paused?'Продолжить':'Пауза'};
+Promise.all([native.decode(),hd.decode()]).then(()=>{
+ if(native.naturalWidth!==1536||native.naturalHeight!==2288||hd.naturalWidth!==4608||hd.naturalHeight!==6864)throw Error('Неверные размеры');
+ for(const [r,c] of all){draw(nc,native,r,c,1);draw(hc,hd,r,c,3);if(!nc.getImageData(0,0,576,624).data.some((v,i)=>i%4===3&&v>0)||!hc.getImageData(0,0,576,624).data.some((v,i)=>i%4===3&&v>0))throw Error(`Пустой кадр ${r}/${c}`)}
+ document.getElementById('load').textContent='PASS: оба PNG декодированы; 73/73 кадра читаются.';
+ function tick(){if(paused)return;const [r,c]=frames[index++%frames.length];draw(nc,native,r,c,1);draw(hc,hd,r,c,3);seen.add(`${r}/${c}`);document.getElementById('frame').textContent=`${names[r]} · кадр ${c+1}/${counts[r]}`;document.getElementById('sweep').textContent=`Воспроизведено: ${seen.size}/73 · ${seen.size===73?'PASS: полный цикл':'цикл идёт'}`;}
+ tick();setInterval(tick,150);
+}).catch(e=>{errors.push(String(e));document.getElementById('load').textContent='FAIL: '+e.message});
+</script></main></html>

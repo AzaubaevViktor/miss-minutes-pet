@@ -1,0 +1,564 @@
+{
+  "hd_structure": "pass",
+  "dimensions": [
+    4608,
+    6864
+  ],
+  "cell_dimensions": [
+    576,
+    624
+  ],
+  "populated_frames": 73,
+  "transparent_unused_cells": 15,
+  "edge_clipping": false,
+  "native_stored_pixels_equal_previously_approved": true,
+  "native_mutated": false,
+  "app_version": "26.1007.71326",
+  "app_build": "20398",
+  "app_channel": "prod",
+  "updater_status": "up_to_date",
+  "native_mcp_validation": "pass",
+  "hd_runtime_support": "fail_invalid_dimensions",
+  "browser_playback": "pass",
+  "native_application_window_playback": "not_run",
+  "reason": "Native computer automation is unavailable in this session.",
+  "cells": [
+    {
+      "row": 0,
+      "frame": 0,
+      "required": true,
+      "alpha_pixels": 179879
+    },
+    {
+      "row": 0,
+      "frame": 1,
+      "required": true,
+      "alpha_pixels": 185126
+    },
+    {
+      "row": 0,
+      "frame": 2,
+      "required": true,
+      "alpha_pixels": 181397
+    },
+    {
+      "row": 0,
+      "frame": 3,
+      "required": true,
+      "alpha_pixels": 176837
+    },
+    {
+      "row": 0,
+      "frame": 4,
+      "required": true,
+      "alpha_pixels": 177355
+    },
+    {
+      "row": 0,
+      "frame": 5,
+      "required": true,
+      "alpha_pixels": 175995
+    },
+    {
+      "row": 0,
+      "frame": 6,
+      "required": false,
+      "alpha_pixels": 0
+    },
+    {
+      "row": 0,
+      "frame": 7,
+      "required": false,
+      "alpha_pixels": 0
+    },
+    {
+      "row": 1,
+      "frame": 0,
+      "required": true,
+      "alpha_pixels": 112480
+    },
+    {
+      "row": 1,
+      "frame": 1,
+      "required": true,
+      "alpha_pixels": 108754
+    },
+    {
+      "row": 1,
+      "frame": 2,
+      "required": true,
+      "alpha_pixels": 106948
+    },
+    {
+      "row": 1,
+      "frame": 3,
+      "required": true,
+      "alpha_pixels": 106957
+    },
+    {
+      "row": 1,
+      "frame": 4,
+      "required": true,
+      "alpha_pixels": 113888
+    },
+    {
+      "row": 1,
+      "frame": 5,
+      "required": true,
+      "alpha_pixels": 109044
+    },
+    {
+      "row": 1,
+      "frame": 6,
+      "required": true,
+      "alpha_pixels": 116195
+    },
+    {
+      "row": 1,
+      "frame": 7,
+      "required": true,
+      "alpha_pixels": 109308
+    },
+    {
+      "row": 2,
+      "frame": 0,
+      "required": true,
+      "alpha_pixels": 199501
+    },
+    {
+      "row": 2,
+      "frame": 1,
+      "required": true,
+      "alpha_pixels": 178376
+    },
+    {
+      "row": 2,
+      "frame": 2,
+      "required": true,
+      "alpha_pixels": 201202
+    },
+    {
+      "row": 2,
+      "frame": 3,
+      "required": true,
+      "alpha_pixels": 188145
+    },
+    {
+      "row": 2,
+      "frame": 4,
+      "required": true,
+      "alpha_pixels": 195354
+    },
+    {
+      "row": 2,
+      "frame": 5,
+      "required": true,
+      "alpha_pixels": 178750
+    },
+    {
+      "row": 2,
+      "frame": 6,
+      "required": true,
+      "alpha_pixels": 198215
+    },
+    {
+      "row": 2,
+      "frame": 7,
+      "required": true,
+      "alpha_pixels": 184229
+    },
+    {
+      "row": 3,
+      "frame": 0,
+      "required": true,
+      "alpha_pixels": 108095
+    },
+    {
+      "row": 3,
+      "frame": 1,
+      "required": true,
+      "alpha_pixels": 106716
+    },
+    {
+      "row": 3,
+      "frame": 2,
+      "required": true,
+      "alpha_pixels": 105964
+    },
+    {
+      "row": 3,
+      "frame": 3,
+      "required": true,
+      "alpha_pixels": 107053
+    },
+    {
+      "row": 3,
+      "frame": 4,
+      "required": false,
+      "alpha_pixels": 0
+    },
+    {
+      "row": 3,
+      "frame": 5,
+      "required": false,
+      "alpha_pixels": 0
+    },
+    {
+      "row": 3,
+      "frame": 6,
+      "required": false,
+      "alpha_pixels": 0
+    },
+    {
+      "row": 3,
+      "frame": 7,
+      "required": false,
+      "alpha_pixels": 0
+    },
+    {
+      "row": 4,
+      "frame": 0,
+      "required": true,
+      "alpha_pixels": 94887
+    },
+    {
+      "row": 4,
+      "frame": 1,
+      "required": true,
+      "alpha_pixels": 101214
+    },
+    {
+      "row": 4,
+      "frame": 2,
+      "required": true,
+      "alpha_pixels": 110943
+    },
+    {
+      "row": 4,
+      "frame": 3,
+      "required": true,
+      "alpha_pixels": 107168
+    },
+    {
+      "row": 4,
+      "frame": 4,
+      "required": true,
+      "alpha_pixels": 97805
+    },
+    {
+      "row": 4,
+      "frame": 5,
+      "required": false,
+      "alpha_pixels": 0
+    },
+    {
+      "row": 4,
+      "frame": 6,
+      "required": false,
+      "alpha_pixels": 0
+    },
+    {
+      "row": 4,
+      "frame": 7,
+      "required": false,
+      "alpha_pixels": 0
+    },
+    {
+      "row": 5,
+      "frame": 0,
+      "required": true,
+      "alpha_pixels": 124821
+    },
+    {
+      "row": 5,
+      "frame": 1,
+      "required": true,
+      "alpha_pixels": 122694
+    },
+    {
+      "row": 5,
+      "frame": 2,
+      "required": true,
+      "alpha_pixels": 120058
+    },
+    {
+      "row": 5,
+      "frame": 3,
+      "required": true,
+      "alpha_pixels": 122166
+    },
+    {
+      "row": 5,
+      "frame": 4,
+      "required": true,
+      "alpha_pixels": 104161
+    },
+    {
+      "row": 5,
+      "frame": 5,
+      "required": true,
+      "alpha_pixels": 122865
+    },
+    {
+      "row": 5,
+      "frame": 6,
+      "required": true,
+      "alpha_pixels": 123162
+    },
+    {
+      "row": 5,
+      "frame": 7,
+      "required": true,
+      "alpha_pixels": 123894
+    },
+    {
+      "row": 6,
+      "frame": 0,
+      "required": true,
+      "alpha_pixels": 154076
+    },
+    {
+      "row": 6,
+      "frame": 1,
+      "required": true,
+      "alpha_pixels": 153961
+    },
+    {
+      "row": 6,
+      "frame": 2,
+      "required": true,
+      "alpha_pixels": 154547
+    },
+    {
+      "row": 6,
+      "frame": 3,
+      "required": true,
+      "alpha_pixels": 152935
+    },
+    {
+      "row": 6,
+      "frame": 4,
+      "required": true,
+      "alpha_pixels": 149498
+    },
+    {
+      "row": 6,
+      "frame": 5,
+      "required": true,
+      "alpha_pixels": 152741
+    },
+    {
+      "row": 6,
+      "frame": 6,
+      "required": false,
+      "alpha_pixels": 0
+    },
+    {
+      "row": 6,
+      "frame": 7,
+      "required": false,
+      "alpha_pixels": 0
+    },
+    {
+      "row": 7,
+      "frame": 0,
+      "required": true,
+      "alpha_pixels": 123980
+    },
+    {
+      "row": 7,
+      "frame": 1,
+      "required": true,
+      "alpha_pixels": 122900
+    },
+    {
+      "row": 7,
+      "frame": 2,
+      "required": true,
+      "alpha_pixels": 121402
+    },
+    {
+      "row": 7,
+      "frame": 3,
+      "required": true,
+      "alpha_pixels": 121257
+    },
+    {
+      "row": 7,
+      "frame": 4,
+      "required": true,
+      "alpha_pixels": 119748
+    },
+    {
+      "row": 7,
+      "frame": 5,
+      "required": true,
+      "alpha_pixels": 118229
+    },
+    {
+      "row": 7,
+      "frame": 6,
+      "required": false,
+      "alpha_pixels": 0
+    },
+    {
+      "row": 7,
+      "frame": 7,
+      "required": false,
+      "alpha_pixels": 0
+    },
+    {
+      "row": 8,
+      "frame": 0,
+      "required": true,
+      "alpha_pixels": 109294
+    },
+    {
+      "row": 8,
+      "frame": 1,
+      "required": true,
+      "alpha_pixels": 118723
+    },
+    {
+      "row": 8,
+      "frame": 2,
+      "required": true,
+      "alpha_pixels": 122040
+    },
+    {
+      "row": 8,
+      "frame": 3,
+      "required": true,
+      "alpha_pixels": 122831
+    },
+    {
+      "row": 8,
+      "frame": 4,
+      "required": true,
+      "alpha_pixels": 117689
+    },
+    {
+      "row": 8,
+      "frame": 5,
+      "required": true,
+      "alpha_pixels": 110435
+    },
+    {
+      "row": 8,
+      "frame": 6,
+      "required": false,
+      "alpha_pixels": 0
+    },
+    {
+      "row": 8,
+      "frame": 7,
+      "required": false,
+      "alpha_pixels": 0
+    },
+    {
+      "row": 9,
+      "frame": 0,
+      "required": true,
+      "alpha_pixels": 111619
+    },
+    {
+      "row": 9,
+      "frame": 1,
+      "required": true,
+      "alpha_pixels": 113517
+    },
+    {
+      "row": 9,
+      "frame": 2,
+      "required": true,
+      "alpha_pixels": 114533
+    },
+    {
+      "row": 9,
+      "frame": 3,
+      "required": true,
+      "alpha_pixels": 113205
+    },
+    {
+      "row": 9,
+      "frame": 4,
+      "required": true,
+      "alpha_pixels": 111585
+    },
+    {
+      "row": 9,
+      "frame": 5,
+      "required": true,
+      "alpha_pixels": 111880
+    },
+    {
+      "row": 9,
+      "frame": 6,
+      "required": true,
+      "alpha_pixels": 113759
+    },
+    {
+      "row": 9,
+      "frame": 7,
+      "required": true,
+      "alpha_pixels": 113272
+    },
+    {
+      "row": 10,
+      "frame": 0,
+      "required": true,
+      "alpha_pixels": 113785
+    },
+    {
+      "row": 10,
+      "frame": 1,
+      "required": true,
+      "alpha_pixels": 113785
+    },
+    {
+      "row": 10,
+      "frame": 2,
+      "required": true,
+      "alpha_pixels": 114388
+    },
+    {
+      "row": 10,
+      "frame": 3,
+      "required": true,
+      "alpha_pixels": 116433
+    },
+    {
+      "row": 10,
+      "frame": 4,
+      "required": true,
+      "alpha_pixels": 115639
+    },
+    {
+      "row": 10,
+      "frame": 5,
+      "required": true,
+      "alpha_pixels": 115053
+    },
+    {
+      "row": 10,
+      "frame": 6,
+      "required": true,
+      "alpha_pixels": 115347
+    },
+    {
+      "row": 10,
+      "frame": 7,
+      "required": true,
+      "alpha_pixels": 115361
+    }
+  ],
+  "browser_evidence": {
+    "surface": "Codex in-app browser, local HTTP preview",
+    "decoded_frames": 73,
+    "animated_frames_observed": 73,
+    "full_sweep": "pass",
+    "jumping_selection": "pass",
+    "native_mini_window": "not_run"
+  },
+  "library_archival": "unavailable_no_library_file_tools"
+}
