@@ -1,0 +1,12 @@
+Generate ONE coherent8-pose gaze family for the approved Miss Minutes pet, in ONE horizontal row. Match the attached user-approved canonical, ALL13 reference contact, standard animation contact, approved four-cardinal strip, and spacingguide. Existing AFTER-style material and identity are locked: dense yelloworange clock disk, twelve brown ticks, cream-white eyes/gloves, original brown-black pupils/lashes and tiny piecut eye reflection, dark slim legs, orange shoes; photographic amber diffuse light with very smooth broad falloff, not a neon-tube border.
+Exact left-to-right gaze order in SCREEN coordinates:
+1 UP (000): both pupils high, white below.
+2 UP-RIGHT near-up (022.5): pupils high and slightly viewer-right.
+3 UP-RIGHT diagonal (045): clear rightward AND upward eye surfaces.
+4 UP-RIGHT near-right (067.5): strong rightward, still slight upward eye surfaces.
+5 RIGHT (090): both eye surfaces against viewer-right boundaries, white left.
+6 DOWN-RIGHT near-right (112.5): strong rightward with slight lower eye surfaces.
+7 DOWN-RIGHT diagonal (135): clear rightward AND downward gaze.
+8 DOWN-RIGHT near-down (157.5): pupils low and slightly viewer-right, one smooth step before the down cardinal.
+The attached cardinal strip is authoritative in order UP RIGHT DOWN LEFT. Interpolate naturally between these anchors. Keep rigid clock body, both feet, leg roots, hands, rim and tick marks stationary and same size. Eyes, lids and drawn face act together on the clock surface; nose/mouth follow subtly. Do not turn the whole clock, rotate sprite, redraw isolated replacement pupils or lose the original eyes. Same cheerful expression, pose, arms and brightness across all8.
+LAYOUT: EXACTLY8 TINY complete full-body sprites, huge transparent gutters. Each whole figure INCLUDING all broad glow must occupy AT MOST7percent of canvaswidth (slotwidth12.5percent); draw them small in a mostly empty wide transparent canvas. One horizontal row along centralbaseline, with generous EMPTY top/bottom. Do not enlarge to fill canvas. Every halo must fade fully to alpha0 before the next halo, with a clear gap. Preserve glow relative to body, never cut it shorter to make spacing. Transparent RGBA, no matte, labels, text, lines, grid, arrows, props, shadows or extra effects. All8 must be generated together as one family, no one-off pose variants. Final artwork goes through deterministic common scale and registration, so prioritise clear separated complete silhouettes and coherent gaze.
