@@ -1,3 +1,5 @@
+> Historical pose-generation prompt. Current foreground extraction prompts are the `*-foreground.txt` files; current glow is a separate smooth optical light source.
+
 Create ONE coherent four-pose full-body cardinal gaze strip for the approved Miss Minutes pet.
 References: canonical-base.png is the user-approved exact identity/material/pose; after-glow-detail.png supplies photographic light scatter; all-13-references.jpg includes ALL original identity references; contact-sheet.png supplies approved animation scale; guide supplies spacing only.
 Preserve dense warmly luminous yellow-orange disk, twelve brown tick marks, subtle hologram texture, cream-white eyes and gloves, black pie-cut pupils with lashes, brown thin legs and orange shoes. Broad diffuse low-opacity amber light halo, long very smooth falloff, no neon-tube border. Match approved canonical, no new props or text.

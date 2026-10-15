@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "surface": "Codex in-app browser; HTTP localhost preview",
+  "all_73_frames_decoded": true,
+  "all_73_frames_played": true,
+  "dark_background_inspected": true,
+  "light_background_inspected": true,
+  "jump_playback_inspected": true,
+  "mirrored_gait_playback_inspected": true,
+  "native_mini_playback": "not_run"
+}

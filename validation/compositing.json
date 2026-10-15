@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "foreground": "ImageGen background-extraction source strips",
+  "light": "decoded/smooth-amber-bloom.png",
+  "light_sha256": "3f5fd2f11d2f6672b6f8fe0f702c4faa5dbd506b4d65983d4d26d161d010730e",
+  "single_light_layer_per_pose": true,
+  "light_opacity": 0.85,
+  "procedural_glow": false,
+  "body_repainted_by_code": false,
+  "chroma_cleanup_strength": 0,
+  "cleanup_reason": "True alpha layers; cyan matte not present. Avoid unblending optical light."
+}

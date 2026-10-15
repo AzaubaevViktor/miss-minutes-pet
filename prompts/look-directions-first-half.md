@@ -1,3 +1,5 @@
+> Historical pose-generation prompt. Current foreground extraction prompts are the `*-foreground.txt` files; current glow is a separate smooth optical light source.
+
 Generate ONE coherent8-pose gaze family for the approved Miss Minutes pet, in ONE horizontal row. Match the attached user-approved canonical, ALL13 reference contact, standard animation contact, approved four-cardinal strip, and spacingguide. Existing AFTER-style material and identity are locked: dense yelloworange clock disk, twelve brown ticks, cream-white eyes/gloves, original brown-black pupils/lashes and tiny piecut eye reflection, dark slim legs, orange shoes; photographic amber diffuse light with very smooth broad falloff, not a neon-tube border.
 Exact left-to-right gaze order in SCREEN coordinates:
 1 UP (000): both pupils high, white below.

@@ -1,7 +1,7 @@
 {
   "artifact": "assets/miss-minutes.png",
-  "sha256": "184f22c14c2e937ac859188200abe57b07c39434abfc5ca9e6b8aae830cced12",
-  "encoded_bytes": 2698140,
+  "sha256": "0683cf1f90528bbe0b61fe81b3636cb8bb1a1ac3d9adf7cbb297f8dde07f05d2",
+  "encoded_bytes": 2762908,
   "format": "PNG",
   "dimensions": [
     1536,
@@ -30,18 +30,13 @@
   "atlas_validation": true,
   "quality_gate": true,
   "quality_warnings": [
-    "look direction 022.5 accepted with a reviewed warning",
     "look direction 067.5 accepted with a reviewed warning",
     "look direction 112.5 accepted with a reviewed warning",
-    "look direction 157.5 accepted with a reviewed warning",
-    "look direction 202.5 accepted with a reviewed warning",
     "look direction 247.5 accepted with a reviewed warning",
     "look direction 292.5 accepted with a reviewed warning",
-    "look direction 337.5 accepted with a reviewed warning",
-    "067.5->090 diff is a local outlier (3679 pixels vs neighbor average 1964)",
-    "157.5->180 diff is a local outlier (4072 pixels vs neighbor average 1068)",
-    "225->247.5 diff is a local outlier (3181 pixels vs neighbor average 2073)",
-    "337.5->000 diff is a local outlier (4424 pixels vs neighbor average 1252)"
+    "112.5->135 diff is a local outlier (555 pixels vs neighbor average 360)",
+    "157.5->180 diff is a local outlier (1391 pixels vs neighbor average 570)",
+    "337.5->000 diff is a local outlier (1487 pixels vs neighbor average 771)"
   ],
   "blind_direction_review": {
     "ok": true,
@@ -51,6 +46,8 @@
     ]
   },
   "pets_service_preflight": true,
+  "browser_playback": "pass; 73/73 final frames decoded and played; dark and light backgrounds inspected",
   "native_app_playback": "not_run",
-  "generation": "Built-in ImageGen; deterministic extraction, common-scale registration, alpha-tail preservation and atlas assembly."
+  "run_mirror_pixel_equality": true,
+  "generation": "Built-in ImageGen foreground extraction and optical light source; coherent family registration and deterministic compositing."
 }

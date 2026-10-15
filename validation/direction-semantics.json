@@ -1,0 +1,117 @@
+{
+  "ok": true,
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "evidence": "Both pupils sit at the upper edges; white remains below. Cardinal is unambiguous. Inspected qa/directions.png and native look-row frames."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Both pupils move to the upper-right portions; upward bias remains conspicuous. Inspected qa/directions.png and native look-row frames."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Upper-right pupil placement is visible in both eyes. Inspected qa/directions.png and native look-row frames."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "mostly right, slightly up",
+      "verdict": "warning",
+      "evidence": "The right component is strong; the upward displacement is subtle at native size, but the transition from 045 to 090 is consistent. Inspected qa/directions.png and native look-row frames."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "screen-right",
+      "verdict": "pass",
+      "evidence": "Both pupils are at the right sides at approximately middle height. Cardinal is unambiguous. Inspected qa/directions.png and native look-row frames."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "mostly right, slightly down",
+      "verdict": "warning",
+      "evidence": "Both pupils remain right; slight lower placement supports the correct quadrant but is weak at native size. Inspected qa/directions.png and native look-row frames."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Both pupils are visibly in the lower-right portions of the eyes. Inspected qa/directions.png and native look-row frames."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right with stronger downward bias",
+      "verdict": "pass",
+      "evidence": "Low pupil placement is clear and the right component remains visible. Inspected qa/directions.png and native look-row frames."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "evidence": "Both pupils sit at the bottom edges with substantial white above. Cardinal is unambiguous. Inspected qa/directions.png and native look-row frames."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Both pupils are low and shifted left. Inspected qa/directions.png and native look-row frames."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "The pupils occupy the lower-left portions of both eye whites. Inspected qa/directions.png and native look-row frames."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "mostly left, slightly down",
+      "verdict": "warning",
+      "evidence": "Left displacement is obvious; the downward component is small and can read nearly horizontal at native size. Inspected qa/directions.png and native look-row frames."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "screen-left",
+      "verdict": "pass",
+      "evidence": "Both pupils lie along the left sides at middle height. Cardinal is unambiguous. Inspected qa/directions.png and native look-row frames."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "mostly left, slightly up",
+      "verdict": "warning",
+      "evidence": "The left component is obvious; the upward component is subtle but the sequence toward 315 remains consistent. Inspected qa/directions.png and native look-row frames."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Both pupils lie high and left with visible white below. Inspected qa/directions.png and native look-row frames."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left with stronger upward bias",
+      "verdict": "pass",
+      "evidence": "High pupil placement remains clear, with a smaller left component as the sequence approaches 000. Inspected qa/directions.png and native look-row frames."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "all_16_direction_semantics",
+      "verdict": "pass",
+      "evidence": "All four cardinals are unambiguous. All twelve intermediate labels retain the expected quadrant and circular order; four near-horizontal labels receive warnings."
+    },
+    {
+      "name": "scale_and_baseline",
+      "verdict": "pass",
+      "evidence": "Contact sheet and native-size frame composites show a stable clock-body scale. Standing states share the foot baseline; deliberate crouch, tilt and airborne poses are consistent with their states."
+    },
+    {
+      "name": "continuous_amber_glow",
+      "verdict": "pass",
+      "evidence": "qa/final-previews/four-stills.png and native frames composited over dark slate show a continuous soft amber halo around the silhouette. No square border or isolated dirty patches are visible."
+    },
+    {
+      "name": "dense_body",
+      "verdict": "pass",
+      "evidence": "Clock face remains solid orange with stable dark outline and readable features on both checkerboard and dark backgrounds."
+    },
+    {
+      "name": "symmetric_running",
+      "verdict": "pass",
+      "evidence": "All eight running-right and all eight running-left native frames have matching scale and mirrored gait phases, with alternating leg poses and coherent arm attachments."
+    },
+    {
+      "name": "jump_size_and_return",
+      "verdict": "pass",
+      "evidence": "All five jumping frames preserve clock diameter through crouch, ascent, apex and descent; last frame returns both feet to the standing baseline."
+    },
+    {
+      "name": "planted_work",
+      "verdict": "pass",
+      "evidence": "All six running/work frames keep both feet planted while eye, head and hand gestures vary. No locomotion step appears in this row."
+    },
+    {
+      "name": "connected_limbs",
+      "verdict": "pass",
+      "evidence": "Inspected native running, jumping and work/review sequences plus full contact sheet. Arms connect to the body or overlap coherently; gloves and shoes connect to their limbs."
+    },
+    {
+      "name": "temporal_playback",
+      "verdict": "not_run",
+      "evidence": "This review inspected ordered still sequences and contact sheets; it did not independently run animated playback or inspect timing in the target application."
+    }
+  ],
+  "warnings": [
+    "067.5, 112.5, 247.5 and 292.5 have subtle vertical components at 192x208; their quadrants and order are visually consistent.",
+    "Temporal smoothness is inferred only from ordered frames; animated target-application playback was not run by this reviewer."
+  ],
+  "errors": []
+}

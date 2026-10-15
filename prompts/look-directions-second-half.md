@@ -1,3 +1,5 @@
+> Historical pose-generation prompt. Current foreground extraction prompts are the `*-foreground.txt` files; current glow is a separate smooth optical light source.
+
 Generate ONE coherent8-pose gaze family, the second half of Miss Minutes' clockwise look loop. Match approved identity-look-contact (canonical plus ALL13 original references and AFTER lighting), standard contact, approved cardinal strip, and COMPLETED first look row9. Preserve row9 body size, pose, rim, arms, hands, eye construction, material, density and broad smooth amber glow exactly. Rigid clock body stays frontal and anchored; whole eyes, lids and face move together naturally on the drawn clock surface. Nose/mouth follow slightly. No whole-object turntable, sprite rotation or replacement eyes.
 Exact left-to-right SCREEN-coordinate gaze order:
 1 DOWN (180): both eye surfaces low with white above.

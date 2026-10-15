@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "same_stable_pet_id": true,
+  "is_custom": true,
+  "is_active": true,
+  "name_preserved": true,
+  "description_preserved": true,
+  "downloaded_rgba_pixel_equality": true,
+  "final_sha256": "0683cf1f90528bbe0b61fe81b3636cb8bb1a1ac3d9adf7cbb297f8dde07f05d2",
+  "native_window_playback": "not_run",
+  "library_archival": "unavailable: no Library file tools exposed"
+}
