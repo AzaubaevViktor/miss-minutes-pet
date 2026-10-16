@@ -2,54 +2,54 @@
   "ok": true,
   "checks": [
     {
-      "name": "all_16_direction_semantics",
+      "name": "review_surface",
       "verdict": "pass",
-      "evidence": "All four cardinals are unambiguous. All twelve intermediate labels retain the expected quadrant and circular order; four near-horizontal labels receive warnings."
+      "evidence": "Reviewed directions.png, contact-sheet.png, final-previews/four-stills.png and native PNGs for four cardinals, jumping/02, running/00, review/03, failed/04. This is still-image inspection; playback was not inspected."
     },
     {
-      "name": "scale_and_baseline",
+      "name": "cardinal_direction_semantics",
       "verdict": "pass",
-      "evidence": "Contact sheet and native-size frame composites show a stable clock-body scale. Standing states share the foot baseline; deliberate crouch, tilt and airborne poses are consistent with their states."
+      "evidence": "All four cardinal pupil directions are unambiguous. Sixteen direction outcomes are recorded in direction-semantics.json."
     },
     {
-      "name": "continuous_amber_glow",
+      "name": "silhouette_rim_glow",
       "verdict": "pass",
-      "evidence": "qa/final-previews/four-stills.png and native frames composited over dark slate show a continuous soft amber halo around the silhouette. No square border or isolated dirty patches are visible."
+      "evidence": "Dark four-still composite shows continuous soft amber glow following clock perimeter, hands, arms, legs and shoes, including raised jump arms and waving hand. Native frames follow the actual silhouette instead of a detached central oval."
     },
     {
-      "name": "dense_body",
+      "name": "background_field",
       "verdict": "pass",
-      "evidence": "Clock face remains solid orange with stable dark outline and readable features on both checkerboard and dark backgrounds."
+      "evidence": "No rectangular or mottled background field is visible on checkerboard contact sheet or dark four-still composite. Outermost low-opacity fringe looks finely stippled in transparent native view, but resolves softly on the supplied dark composite."
     },
     {
-      "name": "symmetric_running",
+      "name": "body_density",
       "verdict": "pass",
-      "evidence": "All eight running-right and all eight running-left native frames have matching scale and mirrored gait phases, with alternating leg poses and coherent arm attachments."
+      "evidence": "Orange clock body, black markings and limbs remain dense and solid; glow does not wash out the face."
     },
     {
-      "name": "jump_size_and_return",
+      "name": "size_and_baseline",
       "verdict": "pass",
-      "evidence": "All five jumping frames preserve clock diameter through crouch, ascent, apex and descent; last frame returns both feet to the standing baseline."
+      "evidence": "Direction frames keep matching clock size and planted foot baseline. Idle, waiting and work poses remain broadly consistent; pose-driven body deformation is visible in failed/crouch states."
+    },
+    {
+      "name": "jump_lift",
+      "verdict": "pass",
+      "evidence": "Jump sequence visibly raises body and both feet above planted baseline, with apex around frame 2; supplied jumping still retains clear lift."
     },
     {
       "name": "planted_work",
       "verdict": "pass",
-      "evidence": "All six running/work frames keep both feet planted while eye, head and hand gestures vary. No locomotion step appears in this row."
+      "evidence": "Running/work row 7 keeps both shoes planted while hands and gaze form work/thought gestures."
     },
     {
-      "name": "connected_limbs",
+      "name": "limb_attachment",
       "verdict": "pass",
-      "evidence": "Inspected native running, jumping and work/review sequences plus full contact sheet. Arms connect to the body or overlap coherently; gloves and shoes connect to their limbs."
-    },
-    {
-      "name": "temporal_playback",
-      "verdict": "not_run",
-      "evidence": "This review inspected ordered still sequences and contact sheets; it did not independently run animated playback or inspect timing in the target application."
+      "evidence": "Contact sheet and inspected native poses show hands connected through arms and feet through legs, including jump and crouch."
     }
   ],
   "warnings": [
-    "067.5, 112.5, 247.5 and 292.5 have subtle vertical components at 192x208; their quadrants and order are visually consistent.",
-    "Temporal smoothness is inferred only from ordered frames; animated target-application playback was not run by this reviewer."
+    "067.5 up-right and 112.5 down-right are predominantly horizontal and have weak vertical distinction; both were ambiguous in the independent blind vertical pair.",
+    "Animation timing, continuity during playback and native product rendering were not inspected."
   ],
   "errors": []
 }
