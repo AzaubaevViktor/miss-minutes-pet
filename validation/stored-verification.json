@@ -1,12 +1,17 @@
 {
-  "ok": true,
   "same_stable_pet_id": true,
   "is_custom": true,
   "is_active": true,
   "name_preserved": true,
   "description_preserved": true,
+  "ok": true,
   "downloaded_rgba_pixel_equality": true,
-  "final_sha256": "ba05a1cb9a030e9a1903d78d1c5a39264dcbedd03bc7ef8f99f77c7d65916692",
+  "final_sha256": "ced84776b1a30e2f3958ec126a481d5ed0618f30f1a240d875ab7519d5dba181",
   "native_window_playback": "not_run",
-  "library_archival": "unavailable: no Library file tools exposed"
+  "library_archival": "unavailable: no Library file tools exposed",
+  "visibility": 0.4,
+  "transparency": 0.6,
+  "maximum_alpha": 102,
+  "exact_opacity_formula_verified": true,
+  "pixel_grid_2x2_verified": true
 }

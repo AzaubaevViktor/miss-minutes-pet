@@ -1,7 +1,7 @@
 {
   "artifact": "assets/miss-minutes.png",
-  "sha256": "ba05a1cb9a030e9a1903d78d1c5a39264dcbedd03bc7ef8f99f77c7d65916692",
-  "encoded_bytes": 3411071,
+  "sha256": "ced84776b1a30e2f3958ec126a481d5ed0618f30f1a240d875ab7519d5dba181",
+  "encoded_bytes": 916815,
   "format": "PNG",
   "dimensions": [
     1536,
@@ -32,17 +32,33 @@
   "quality_warnings": [
     "look direction 067.5 accepted with a reviewed warning",
     "look direction 112.5 accepted with a reviewed warning",
-    "045->067.5 diff is a local outlier (2675 pixels vs neighbor average 1586)",
-    "157.5->180 diff is a local outlier (4296 pixels vs neighbor average 1606)",
-    "337.5->000 diff is a local outlier (4508 pixels vs neighbor average 1793)"
+    "look direction 247.5 accepted with a reviewed warning",
+    "look direction 292.5 accepted with a reviewed warning",
+    "157.5->180 diff is a local outlier (2712 pixels vs neighbor average 856)",
+    "247.5->270 diff is a local outlier (552 pixels vs neighbor average 344)",
+    "337.5->000 diff is a local outlier (2504 pixels vs neighbor average 722)"
   ],
   "blind_direction_review": {
     "ok": true,
-    "warnings": []
+    "warnings": [
+      "vertical-4 A vertical axis is ambiguous",
+      "vertical-4 B vertical axis is ambiguous",
+      "vertical-7 A vertical axis is ambiguous"
+    ]
   },
   "pets_service_preflight": true,
-  "browser_playback": "pass; 73/73 final frames decoded and played; dark and light backgrounds inspected",
+  "browser_playback": "blocked by browser URL security policy; no browser playback claimed",
   "native_app_playback": "not_run",
   "run_mirror_pixel_equality": true,
-  "generation": "Built-in ImageGen contour lighting edits of coherent pose families; component extraction, native registration, exact mirrored gait. Central optical field removed."
+  "generation": "Built-in ImageGen pixel-art edits of coherent pose families; component extraction, shared native registration and exact mirrored gait.",
+  "style": "pixel art",
+  "logical_canvas": [
+    96,
+    104
+  ],
+  "pixel_scale": 2,
+  "visibility": 0.4,
+  "transparency": 0.6,
+  "maximum_alpha": 102,
+  "stored_rgba_equality": true
 }

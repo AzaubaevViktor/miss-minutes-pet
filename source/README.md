@@ -1,5 +1,5 @@
-# Current pose artwork
+# Current pixel-art pose artwork
 
-Current animation and gaze strips contain their ImageGen contour bloom: dense clock body with warm amber light emitted beside its actual silhouette and fading outward. `smooth-amber-bloom.png` is a preserved experiment from the previous central-field version and is not used by the current atlas.
+Current strips and canonical base are generated pixel artwork. The native atlas uses a 96 × 104 logical grid enlarged to 192 × 208 with nearest-neighbor sampling. `spritesheet-opaque-master.png` preserves the assembled opaque source. The installed atlas applies `round(source_alpha * 0.4)` once to every pixel, for 60% transparency / 40% visibility. Warm amber contour light is already part of the generated strips.
 
-Current lighting prompts: `../prompts/contour-*.txt`. Older foreground-extraction and initial pose prompts are preserved as provenance, not current lighting specifications.
+Current prompts: `../prompts/pixel-*.txt`. Previous contour/foreground-extraction prompts and `smooth-amber-bloom.png` are preserved as historical experiments and are not the current specification. The old HD directory belongs to a previous, non-pixel version.

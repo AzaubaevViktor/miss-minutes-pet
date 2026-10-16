@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "user_confirmed_transparency": 0.6,
+  "visibility": 0.4,
+  "maximum_alpha": 102,
+  "formula": "round(source_alpha * 0.4)",
+  "source": "final/spritesheet-opaque-master.png",
+  "logical_canvas": [
+    96,
+    104
+  ],
+  "pixel_scale": 2,
+  "applied_to_all_73_frames": true
+}

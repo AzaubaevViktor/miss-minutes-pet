@@ -1,6 +1,8 @@
 {
   "ok": true,
-  "lighting": "ImageGen silhouette-following contour bloom in every coherent pose strip",
+  "lighting": "ImageGen pixel-art contour glow in every coherent pose strip",
+  "style": "pixel art",
+  "visibility": 0.4,
   "central_optical_field_removed": true,
   "procedural_glow": false,
   "body_repainted_by_code": false,
