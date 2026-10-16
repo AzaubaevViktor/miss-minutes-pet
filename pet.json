@@ -1,8 +1,8 @@
 {
   "name": "Miss Minutes",
-  "description": "A warm amber pixel-art clock companion with a silhouette glow, at 60% transparency (40% visibility).",
+  "description": "A warm amber pixel-art clock, redrawn for native rectangular cells, with broader silhouette glow and 80% opacity.",
   "sprite_version": 2,
-  "spritesheet": "assets/miss-minutes.png",
+  "spritesheet": "assets/miss-minutes.webp",
   "width": 1536,
   "height": 2288,
   "cell_width": 192,
@@ -20,13 +20,19 @@
     8,
     8
   ],
-  "sha256": "ced84776b1a30e2f3958ec126a481d5ed0618f30f1a240d875ab7519d5dba181",
+  "sha256": "d5f52d363dee8dd81d143407e41cdd7f064a007d5a8b9d4f1e033c3fc27be5d5",
   "style": "pixel art",
-  "visibility": 0.4,
-  "transparency": 0.6,
+  "visibility": 0.8,
+  "transparency": 0.2,
   "logical_canvas": [
     96,
     104
   ],
-  "pixel_scale": 2
+  "pixel_scale": 2,
+  "png_fallback": "assets/miss-minutes.png",
+  "maximum_alpha": 204,
+  "rgb_palette_colors": 32,
+  "alpha_levels": 32,
+  "alpha_quantized_independently": true,
+  "encoded_bytes": 299896
 }

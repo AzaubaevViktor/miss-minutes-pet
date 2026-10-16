@@ -1,0 +1,21 @@
+{
+  "source": "installed application bundle inspected read-only",
+  "native_cell": [
+    192,
+    208
+  ],
+  "native_atlas": [
+    1536,
+    2288
+  ],
+  "rows": 11,
+  "columns": 8,
+  "css_aspect_ratio": "192/208",
+  "default_css_width_rem": 7.04,
+  "default_css_size_at_16px_rem": [
+    112.64,
+    122.02666666666667
+  ],
+  "actual_native_window_playback": "not_run",
+  "prior_80_percent_draft_installed": false
+}

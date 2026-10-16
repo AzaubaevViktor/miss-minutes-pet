@@ -1,8 +1,8 @@
 {
-  "artifact": "assets/miss-minutes.png",
-  "sha256": "ced84776b1a30e2f3958ec126a481d5ed0618f30f1a240d875ab7519d5dba181",
-  "encoded_bytes": 916815,
-  "format": "PNG",
+  "artifact": "assets/miss-minutes.webp",
+  "sha256": "d5f52d363dee8dd81d143407e41cdd7f064a007d5a8b9d4f1e033c3fc27be5d5",
+  "encoded_bytes": 299896,
+  "format": "WEBP",
   "dimensions": [
     1536,
     2288
@@ -30,35 +30,59 @@
   "atlas_validation": true,
   "quality_gate": true,
   "quality_warnings": [
-    "look direction 067.5 accepted with a reviewed warning",
-    "look direction 112.5 accepted with a reviewed warning",
-    "look direction 247.5 accepted with a reviewed warning",
-    "look direction 292.5 accepted with a reviewed warning",
-    "157.5->180 diff is a local outlier (2712 pixels vs neighbor average 856)",
-    "247.5->270 diff is a local outlier (552 pixels vs neighbor average 344)",
-    "337.5->000 diff is a local outlier (2504 pixels vs neighbor average 722)"
+    "022.5->045 diff is a local outlier (1656 pixels vs neighbor average 806)",
+    "067.5->090 diff is a local outlier (1684 pixels vs neighbor average 654)",
+    "157.5->180 diff is a local outlier (3604 pixels vs neighbor average 1026)",
+    "337.5->000 diff is a local outlier (3460 pixels vs neighbor average 1240)"
   ],
   "blind_direction_review": {
     "ok": true,
-    "warnings": [
-      "vertical-4 A vertical axis is ambiguous",
-      "vertical-4 B vertical axis is ambiguous",
-      "vertical-7 A vertical axis is ambiguous"
-    ]
+    "warnings": []
   },
   "pets_service_preflight": true,
-  "browser_playback": "blocked by browser URL security policy; no browser playback claimed",
+  "browser_playback": "not_run; browser security policy denied access in prior iteration",
   "native_app_playback": "not_run",
   "run_mirror_pixel_equality": true,
-  "generation": "Built-in ImageGen pixel-art edits of coherent pose families; component extraction, shared native registration and exact mirrored gait.",
+  "generation": "Fresh ImageGen redraw for native rectangular cells; coherent family registration; exact mirrored gait; Independent 32-color RGB palette and 32 alpha levels, exact body opacity.",
   "style": "pixel art",
   "logical_canvas": [
     96,
     104
   ],
   "pixel_scale": 2,
-  "visibility": 0.4,
-  "transparency": 0.6,
-  "maximum_alpha": 102,
-  "stored_rgba_equality": true
+  "visibility": 0.8,
+  "transparency": 0.2,
+  "maximum_alpha": 204,
+  "stored_rgba_equality": true,
+  "encoding": {
+    "ok": true,
+    "dimensions": [
+      1536,
+      2288
+    ],
+    "logical_canvas": [
+      96,
+      104
+    ],
+    "pixel_scale": 2,
+    "rgb_palette_colors": 32,
+    "alpha_levels": 32,
+    "alpha_quantized_independently": true,
+    "body_alpha_exact": true,
+    "dithering": false,
+    "maximum_alpha": 204,
+    "all_opaque_body_pixels_at_80_percent": true,
+    "body_rgb_mean_absolute_error": 5.470293143198606,
+    "visible_alpha_mean_absolute_error": 0.48003260178497165,
+    "webp_rgba_equals_png": true,
+    "png_bytes": 717681,
+    "webp_bytes": 299896,
+    "unoptimized_png_bytes": 1412785,
+    "previous_runtime_png_bytes": 916815,
+    "runtime": "final/spritesheet-extended.webp",
+    "runtime_bytes": 299896,
+    "reduction_percent": 67.3
+  },
+  "stored_encoded_bytes": 1140264,
+  "stored_format": "PNG"
 }

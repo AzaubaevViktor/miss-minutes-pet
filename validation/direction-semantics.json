@@ -6,112 +6,114 @@
       "expected": "up",
       "observed": "up",
       "verdict": "pass",
-      "evidence": "Both pupils are high with visible white below; horizontal displacement is balanced."
+      "evidence": "Pupils sit at the top of both eye whites with white space below."
     },
     {
       "label": "022.5",
       "expected": "up-right",
       "observed": "up-right",
       "verdict": "pass",
-      "evidence": "Pupils remain high and shift visibly toward screen-right."
+      "evidence": "Both pupils sit high with a small displacement toward screen-right."
     },
     {
       "label": "045",
       "expected": "up-right",
       "observed": "up-right",
       "verdict": "pass",
-      "evidence": "Both pupils occupy the upper right parts of their whites."
+      "evidence": "Both pupils occupy the upper-right part of the eye whites."
     },
     {
       "label": "067.5",
       "expected": "up-right",
-      "observed": "screen-right; vertical component ambiguous",
-      "verdict": "warning",
-      "evidence": "Rightward displacement is clear, but the small upward component is hard to distinguish visually from the neighboring horizontal view."
+      "observed": "up-right, predominantly right",
+      "verdict": "pass",
+      "evidence": "Pupils are against the screen-right edges and remain above the eye midlines."
     },
     {
       "label": "090",
       "expected": "right",
-      "observed": "screen-right",
+      "observed": "right",
       "verdict": "pass",
-      "evidence": "Both pupils occupy the right edges at approximately mid-height."
+      "evidence": "Pupils hug the right sides of both whites at approximately mid-height."
     },
     {
       "label": "112.5",
       "expected": "down-right",
-      "observed": "screen-right; vertical component ambiguous",
-      "verdict": "warning",
-      "evidence": "Rightward displacement is clear; the small downward component is weak and resembles the nearby rightward views."
+      "observed": "down-right, predominantly right",
+      "verdict": "pass",
+      "evidence": "Right-edge pupils are visibly lower than in the 090 pose."
     },
     {
       "label": "135",
       "expected": "down-right",
       "observed": "down-right",
       "verdict": "pass",
-      "evidence": "Pupils occupy the lower right parts of both eyes."
+      "evidence": "Pupils sit in the lower-right portions of the whites."
     },
     {
       "label": "157.5",
       "expected": "down-right",
-      "observed": "down-right",
+      "observed": "down-right, predominantly down",
       "verdict": "pass",
-      "evidence": "Pupils sit low with a visible rightward offset."
+      "evidence": "Pupils lie low with a small screen-right displacement."
     },
     {
       "label": "180",
       "expected": "down",
       "observed": "down",
       "verdict": "pass",
-      "evidence": "Both pupils sit at the bottoms of their eyes with white above; horizontal balance is centered."
+      "evidence": "Both pupils sit at the bottom center of the whites."
     },
     {
       "label": "202.5",
       "expected": "down-left",
-      "observed": "down-left",
+      "observed": "down-left, predominantly down",
       "verdict": "pass",
-      "evidence": "Both pupils sit low and shift toward screen-left."
+      "evidence": "Low pupils are slightly displaced toward screen-left."
     },
     {
       "label": "225",
       "expected": "down-left",
       "observed": "down-left",
       "verdict": "pass",
-      "evidence": "Pupils occupy the lower left portions of both eyes."
+      "evidence": "Pupils occupy the lower-left portions of the whites."
     },
     {
       "label": "247.5",
       "expected": "down-left",
-      "observed": "screen-left; vertical component ambiguous",
-      "verdict": "warning",
-      "evidence": "The leftward component is clear; downward displacement is small enough to be uncertain in the native sprite."
+      "observed": "down-left, predominantly left",
+      "verdict": "pass",
+      "evidence": "Pupils hug the left edges below the eye midlines."
     },
     {
       "label": "270",
       "expected": "left",
-      "observed": "screen-left",
+      "observed": "left",
       "verdict": "pass",
-      "evidence": "Both pupils occupy the left edges around mid-height."
+      "evidence": "Pupils sit against the screen-left edges at approximately mid-height."
     },
     {
       "label": "292.5",
       "expected": "up-left",
-      "observed": "screen-left with slight upward component",
-      "verdict": "warning",
-      "evidence": "The leftward component is clear and pupils look slightly high; separation from the leftward cardinal is subtle."
+      "observed": "up-left, predominantly left",
+      "verdict": "pass",
+      "evidence": "Left-edge pupils sit above the eye midlines."
     },
     {
       "label": "315",
       "expected": "up-left",
       "observed": "up-left",
       "verdict": "pass",
-      "evidence": "Both pupils occupy the upper left portions of the eyes."
+      "evidence": "Pupils occupy the upper-left portions of both whites."
     },
     {
       "label": "337.5",
       "expected": "up-left",
-      "observed": "up-left",
+      "observed": "up-left, predominantly up",
       "verdict": "pass",
-      "evidence": "Pupils sit high with a visible leftward offset."
+      "evidence": "High pupils show a small screen-left displacement."
     }
-  ]
+  ],
+  "final_asset_sha256": "d5f52d363dee8dd81d143407e41cdd7f064a007d5a8b9d4f1e033c3fc27be5d5",
+  "review_surface": "Current final-encoding directions.png and contact-sheet.png; native playback not_run."
 }

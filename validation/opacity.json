@@ -1,14 +1,11 @@
 {
   "ok": true,
-  "user_confirmed_transparency": 0.6,
-  "visibility": 0.4,
-  "maximum_alpha": 102,
-  "formula": "round(source_alpha * 0.4)",
+  "transparency": 0.2,
+  "visibility": 0.8,
+  "maximum_alpha": 204,
+  "formula_before_alpha_quantization": "round(source_alpha * 0.8)",
+  "near_opaque_source_normalization": "generated alpha>=250 normalized to255 before export",
+  "palette_alpha": "32 alpha levels independent of RGB; opaque body stays exactly204",
   "source": "final/spritesheet-opaque-master.png",
-  "logical_canvas": [
-    96,
-    104
-  ],
-  "pixel_scale": 2,
   "applied_to_all_73_frames": true
 }

@@ -1,5 +1,7 @@
-# Current pixel-art pose artwork
+# Native pixel redraw
 
-Current strips and canonical base are generated pixel artwork. The native atlas uses a 96 × 104 logical grid enlarged to 192 × 208 with nearest-neighbor sampling. `spritesheet-opaque-master.png` preserves the assembled opaque source. The installed atlas applies `round(source_alpha * 0.4)` once to every pixel, for 60% transparency / 40% visibility. Warm amber contour light is already part of the generated strips.
+The canonical character and all pose families were freshly redrawn with built-in ImageGen for a 192 × 208 rectangular runtime cell. Raw generated source strips are larger than runtime; opaque component seeds recover their existing generated alpha, then each coherent family receives one shared isotropic transform. No aspect stretching or independent per-frame resizing is used. The left run is an exact framewise mirror of the right run.
 
-Current prompts: `../prompts/pixel-*.txt`. Previous contour/foreground-extraction prompts and `smooth-amber-bloom.png` are preserved as historical experiments and are not the current specification. The old HD directory belongs to a previous, non-pixel version.
+The logical canvas is 96 × 104, enlarged ×2 to 192 × 208. The assembled opaque master is exported at 80% opacity. RGB uses a shared 32-color palette without dithering. Alpha has 32 independent levels; body alpha remains exactly 204/255. Alpha and RGB are never averaged together, avoiding gray rim artifacts. RGB quantization is a small visual approximation; subsequent WebP compression is lossless. PNG and WebP contain identical final RGBA pixels.
+
+Current prompts are `../prompts/native-*.txt`. Earlier pixel, contour and HD experiments remain historical sources and do not describe the current runtime. Original film reference photos are not published.

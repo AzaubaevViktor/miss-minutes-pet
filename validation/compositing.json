@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "lighting": "ImageGen pixel-art contour glow in every coherent pose strip",
-  "style": "pixel art",
-  "visibility": 0.4,
-  "central_optical_field_removed": true,
+  "lighting": "ImageGen amber silhouette glow generated together with newly redrawn pixel character in each native-layout pose family",
+  "foreground": "Fresh native-layout ImageGen redraw, component extraction, one isotropic family transform, no independent frame resizing or aspect stretching",
   "procedural_glow": false,
-  "body_repainted_by_code": false,
-  "chroma_cleanup_strength": 0,
-  "reason": "True transparent generated pixels; preserve amber bloom rather than unblending a nonexistent cyan matte."
+  "body_redrawn_by_code": false,
+  "native_layout_guides": true,
+  "renderer_contract": "192x208 non-square cells; approximately113x122 CSS pixels at default width",
+  "visibility": 0.8,
+  "chroma_cleanup_strength": 0
 }

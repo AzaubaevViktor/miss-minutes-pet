@@ -2,75 +2,53 @@
   "ok": true,
   "checks": [
     {
-      "name": "review_scope",
+      "name": "16 direction semantics and cardinals",
       "verdict": "pass",
-      "evidence": "Independent inspection of directions.png, contact-sheet.png, and qa/final-previews/four-stills.png only. This is a still-image review; animation playback was not inspected."
+      "evidence": "Visually inspected all labeled poses in directions.png, including the enlarged eye crops. 000 is up, 090 screen-right, 180 down, and 270 screen-left. Intermediate gaze offsets follow the labeled quadrants."
     },
     {
-      "name": "pixel_art_anatomy",
+      "name": "Body scale and proportions",
       "verdict": "pass",
-      "evidence": "Clock face, eyes, two gloves, arms, legs, and shoes remain readable and connected through the supplied frames. No visibly broken limb was found."
+      "evidence": "The contact sheet retains the same round clock face, slender limbs, gloves and shoes throughout. The failed pose deliberately lowers/slumps the body; jump limbs tuck without an unrelated head or body scale."
     },
     {
-      "name": "silhouette_glow",
+      "name": "Silhouette-following glow",
       "verdict": "pass",
-      "evidence": "The dark-background four-still preview shows a narrow warm halo following the character outline, without a visible rectangular illuminated field."
+      "evidence": "Current native-dark-light.png shows an amber halo following the clock, gloves and shoes against both dark and light backgrounds. The fade is visually smooth enough for the pixel artwork at the displayed scale; no objectionable hard alpha rings or large contour discontinuities are visible."
     },
     {
-      "name": "visibility",
+      "name": "No square field or stray dirt",
       "verdict": "pass",
-      "evidence": "The intentionally subdued character remains discernible on the dark background and checkerboard. This visual review does not measure the numeric 40 percent opacity target."
+      "evidence": "No opaque rectangular field or detached specks are visible in the refreshed composites/contact sheet. Background remains clear outside the silhouette and halo."
     },
     {
-      "name": "scale_consistency",
+      "name": "Jump takeoff and landing",
       "verdict": "pass",
-      "evidence": "Head and body proportions stay visually consistent across the contact sheet. Pose changes do not produce a conspicuous scale jump in the still frames."
+      "evidence": "The refreshed jumping contact-sheet row retains grounded frame 00, rising frame 01, highest frame 02, descending frame 03 and grounded frame 04. Limbs remain readable and unclipped. Earlier individual-frame inspection established the same pose sequence; timing is not established."
     },
     {
-      "name": "baseline",
+      "name": "Animation family consistency",
       "verdict": "pass",
-      "evidence": "Grounded idle, waving, waiting, work/running, and review poses share a stable apparent floor. Raised feet in locomotion are consistent with alternating strides."
+      "evidence": "All nine refreshed state rows retain the same orange/gold clock design, readable dark face and limb outlines, cream gloves, gold shoes and amber glow. Running directions mirror coherently; distinct gestures remain recognizable as the same character. The reduced palette remains readable in the displayed pixel style."
     },
     {
-      "name": "jump",
-      "verdict": "pass",
-      "evidence": "Jump frames 1 through 3 lift both shoes above the idle floor; the apex raises the face and hands, followed by a grounded return frame. The separate jump still also has a clear airborne silhouette."
-    },
-    {
-      "name": "work_running_feet",
-      "verdict": "pass",
-      "evidence": "The stationary row 7 running/work sequence keeps shoes visibly on the floor while arms work at the chest. Locomotion rows alternate supporting and raised legs with no obvious below-floor drift."
-    },
-    {
-      "name": "cardinals",
-      "verdict": "pass",
-      "evidence": "000, 090, 180, and 270 read respectively as up, screen-right, down, and screen-left without cardinal ambiguity."
-    },
-    {
-      "name": "all_16_directions",
+      "name": "Fine directional discrimination at small size",
       "verdict": "warning",
-      "evidence": "The gaze proceeds through the expected quadrants around the full loop without an observed wrong quadrant. Near-horizontal intermediate angles 067.5, 112.5, 247.5, and 292.5 have weak vertical separation from nearby views."
+      "evidence": "Adjacent 22.5-degree gaze steps differ subtly at the small contact-sheet scale. Their quadrants and cardinal directions are clear in the larger labeled sheet; this review does not establish that every adjacent step will be distinguishable at every application display scale."
     },
     {
-      "name": "whole_object_rotation",
+      "name": "Repaired upper dial rim encoding",
       "verdict": "pass",
-      "evidence": "Directional look frames retain the same upright clock ticks, shoes, and overall silhouette; gaze direction changes through the eyes."
-    },
-    {
-      "name": "clipping",
-      "verdict": "pass",
-      "evidence": "No active native frame in the contact sheet visibly cuts off gloves, shoes, glow, or the clock rim. The zoom rows in directions.png are deliberately cropped QA face views."
-    },
-    {
-      "name": "motion_playback",
-      "verdict": "warning",
-      "evidence": "Not run. Still frames establish poses and jump displacement, but do not establish timing, smoothness, transition quality, or temporal scale stability."
+      "evidence": "In the current dark/light running and jumping poses, the upper rim reads warm amber/gold around the intentional brown dial outline. No separate gray strip above or below the upper dial edge is visible. The refreshed contact sheet agrees. Pixel stair-steps remain consistent with the artwork style."
     }
   ],
   "warnings": [
-    "Near-horizontal intermediate gaze angles have subtle vertical separation; this is acceptable as an intermediate-angle warning because the cardinal directions and quadrant sequence remain coherent.",
-    "Animation playback was not reviewed; motion timing and transition smoothness remain unverified.",
-    "Exact alpha or 60 percent transparency was not measured in this visual-only review."
+    "Adjacent gaze steps are subtle at small size.",
+    "Review covers rendered still frames and contact sheets. Animation timing, loop smoothness and native application playback were not exercised."
   ],
-  "errors": []
+  "errors": [],
+  "final_asset_sha256": "d5f52d363dee8dd81d143407e41cdd7f064a007d5a8b9d4f1e033c3fc27be5d5",
+  "native_playback": "not_run",
+  "review_surface": "Current final-encoding native-dark-light.png, directions.png and contact-sheet.png. The refreshed contact sheet confirms grounded/rise/apex/descent/grounded jump pose order; timing and native playback remain untested.",
+  "encoding_context": "Parent reports independent RGB32 palette and 32 alpha levels, with body alpha 204. This is visual QA of rendered images; full original alpha preservation is not claimed."
 }

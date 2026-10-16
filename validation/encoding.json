@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "dimensions": [
+    1536,
+    2288
+  ],
+  "logical_canvas": [
+    96,
+    104
+  ],
+  "pixel_scale": 2,
+  "rgb_palette_colors": 32,
+  "alpha_levels": 32,
+  "alpha_quantized_independently": true,
+  "body_alpha_exact": true,
+  "dithering": false,
+  "maximum_alpha": 204,
+  "all_opaque_body_pixels_at_80_percent": true,
+  "body_rgb_mean_absolute_error": 5.470293143198606,
+  "visible_alpha_mean_absolute_error": 0.48003260178497165,
+  "webp_rgba_equals_png": true,
+  "png_bytes": 717681,
+  "webp_bytes": 299896,
+  "unoptimized_png_bytes": 1412785,
+  "previous_runtime_png_bytes": 916815,
+  "runtime": "final/spritesheet-extended.webp",
+  "runtime_bytes": 299896,
+  "reduction_percent": 67.3
+}

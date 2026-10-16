@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "rows": [
+    {
+      "state": "look-cardinals",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "shared_scale": 0.994475138121547,
+      "inner_dial_width": 98.45303867403315,
+      "baseline": 184,
+      "native_cell": [
+        192,
+        208
+      ],
+      "method": "native-layout reference, bundled components with full generated alpha recovery, one isotropic family transform, logical pixel grid snap"
+    },
+    {
+      "state": "look-row-9",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "shared_scale": 1.005586592178771,
+      "inner_dial_width": 96.53631284916202,
+      "baseline": 184,
+      "native_cell": [
+        192,
+        208
+      ],
+      "method": "native-layout reference, bundled components with full generated alpha recovery, one isotropic family transform, logical pixel grid snap"
+    },
+    {
+      "state": "look-row-10",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "shared_scale": 1.0169491525423728,
+      "inner_dial_width": 94.57627118644068,
+      "baseline": 184,
+      "native_cell": [
+        192,
+        208
+      ],
+      "method": "native-layout reference, bundled components with full generated alpha recovery, one isotropic family transform, logical pixel grid snap"
+    }
+  ]
+}

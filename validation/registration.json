@@ -1,0 +1,117 @@
+{
+  "ok": true,
+  "rows": [
+    {
+      "state": "failed",
+      "target_inner_dial_width": 104,
+      "expected_body_width": 97.0,
+      "scale_policy": "one isotropic transform per coherent family; never stretch or independently resize frames",
+      "logical_canvas": [
+        96,
+        104
+      ],
+      "pixel_scale": 2,
+      "scale": 1.0,
+      "baseline": 184,
+      "jump_lift": null
+    },
+    {
+      "state": "idle",
+      "target_inner_dial_width": 104,
+      "expected_body_width": 104.0,
+      "scale_policy": "one isotropic transform per coherent family; never stretch or independently resize frames",
+      "logical_canvas": [
+        96,
+        104
+      ],
+      "pixel_scale": 2,
+      "scale": 1.0097087378640777,
+      "baseline": 184,
+      "jump_lift": null
+    },
+    {
+      "state": "jumping",
+      "target_inner_dial_width": 104,
+      "expected_body_width": 89.50276243093923,
+      "scale_policy": "one isotropic transform per coherent family; never stretch or independently resize frames",
+      "logical_canvas": [
+        96,
+        104
+      ],
+      "pixel_scale": 2,
+      "scale": 0.994475138121547,
+      "baseline": 184,
+      "jump_lift": 18.0
+    },
+    {
+      "state": "review",
+      "target_inner_dial_width": 104,
+      "expected_body_width": 97.94972067039106,
+      "scale_policy": "one isotropic transform per coherent family; never stretch or independently resize frames",
+      "logical_canvas": [
+        96,
+        104
+      ],
+      "pixel_scale": 2,
+      "scale": 0.994413407821229,
+      "baseline": 184,
+      "jump_lift": null
+    },
+    {
+      "state": "running",
+      "target_inner_dial_width": 104,
+      "expected_body_width": 97.91208791208791,
+      "scale_policy": "one isotropic transform per coherent family; never stretch or independently resize frames",
+      "logical_canvas": [
+        96,
+        104
+      ],
+      "pixel_scale": 2,
+      "scale": 0.989010989010989,
+      "baseline": 184,
+      "jump_lift": null
+    },
+    {
+      "state": "running-right",
+      "target_inner_dial_width": 104,
+      "expected_body_width": 95.65714285714284,
+      "scale_policy": "one isotropic transform per coherent family; never stretch or independently resize frames",
+      "logical_canvas": [
+        96,
+        104
+      ],
+      "pixel_scale": 2,
+      "scale": 1.0285714285714285,
+      "baseline": 184,
+      "jump_lift": null
+    },
+    {
+      "state": "waiting",
+      "target_inner_dial_width": 104,
+      "expected_body_width": 99.66101694915254,
+      "scale_policy": "one isotropic transform per coherent family; never stretch or independently resize frames",
+      "logical_canvas": [
+        96,
+        104
+      ],
+      "pixel_scale": 2,
+      "scale": 1.0169491525423728,
+      "baseline": 184,
+      "jump_lift": null
+    },
+    {
+      "state": "waving",
+      "target_inner_dial_width": 104,
+      "expected_body_width": 95.19777158774373,
+      "scale_policy": "one isotropic transform per coherent family; never stretch or independently resize frames",
+      "logical_canvas": [
+        96,
+        104
+      ],
+      "pixel_scale": 2,
+      "scale": 0.9916434540389972,
+      "baseline": 184,
+      "jump_lift": null
+    }
+  ]
+}
